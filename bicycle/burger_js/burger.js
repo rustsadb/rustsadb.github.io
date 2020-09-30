@@ -3,7 +3,7 @@ $(document).ready(function(){
         $('.burger,.header').toggleClass('active');
         $('body').toggleClass('lock');
     }),
-        $('.menu__link').click(function(event){
+    $('.menu__link').click(function(event){
         $('.burger,.header').removeClass('active');
     })
 })
