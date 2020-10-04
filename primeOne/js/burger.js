@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.burger-icon').click(function(event){
+        $('.burger-icon,.burger-menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    })
+    $('.menu__link').click(function(event){
+        $('.burger-menu,.burger-icon').removeClass('active');
+        $('body').removeClass('lock');
+    })
+})

@@ -1,0 +1,8 @@
+.private__content_anim {
+  visibility: visible;
+  -webkit-animation: fadeInRight;
+          animation: fadeInRight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+/*# sourceMappingURL=animations.css.map */
