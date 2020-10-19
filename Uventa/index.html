@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Gulp</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+    <div class="hidden-block"></div>
+    <div class="top-row">
+        <div class="container">
+            <nav class="top-menu">
+                <div class="burger-icon">
+                    <span></span>
+                </div>
+                <ul class="top-menu__list top-menu__list_sections">
+                    <li class="top-menu__li"><a class="top-menu__link active" href="#">Главная</a></li>
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">О компании</a></li>
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">Оплата</a></li>
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">Доставка</a></li>
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">Гарантия</a></li>
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">Акции %</a></li>
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">Контакты</a></li>
+                </ul>
+                <ul class="top-menu__list top-menu__list_login">
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">Регистрация</a></li>
+                    <li class="top-menu__li"><a class="top-menu__link" href="#">Войти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="top-contact">
+        <div class="container">
+            <div class="top-contact__row">
+                <a href="#" class="top-contact__logo">
+                    <img src="img/header/logo.png" alt="">
+                    <div class="top-contact__logo-text">Официальный дистрибьютер в Крыму с 2005 года</div>
+                </a>
+                <div class="top-contact__content">
+                    <div class="top-contact__item contact-item">
+                        <div class="contact-item__image">
+                            <img src="img/header/map_icon.png" alt="">
+                        </div>
+                        <div class="contact-item__content">
+                            <div>Ближайший магазин</div>
+                            <div><span>Симферополь</span></div>
+                            <div>ул. Маяковского 14-Э</div>
+                        </div>
+                    </div>
+                    <div class="top-contact__item contact-item">
+                        <div class="contact-item__image">
+                            <img src="img/header/clocks_icon.png" alt="">
+                        </div>
+                        <div class="contact-item__content">
+                            <div>Пн. - Пт.:</div>
+                            <div><span>09:00 - 18:00</span></div>
+                            <div>Выходные: <br> Сб. - Вс.</div>
+                        </div>
+                    </div>
+                    <div class="top-contact__item contact-item">
+                        <div class="contact-item__image">
+                            <img src="img/header/phone_icon.png" alt="">
+                        </div>
+                        <div class="contact-item__content contact-item__content_call">
+                            <div>+7(978) <span>729-02-15</span></div>
+                            <div>(3652) <span>24-82-31</span></div>
+                            <a href="#" class="callback">обратный звонок</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="container">
+            <div class="catalog__row">
+                <div class="catalog__column">
+                    <div class="catalog-panel">
+                        <div class="catalog-button">
+                            <span>Каталог</span>
+                            <i class="fa fa-caret-down"></i>
+                        </div>
+                        <div class="tab-buttons">
+                            <a href="" class="tab-buttons__btn active">Home & Garden / Бытовая техника</a>
+                            <a href="" class="tab-buttons__btn">Professional / Профессиональная техника</a>
+                        </div>
+                        <div class="tab-body">
+                            <div class="tab-content">
+                                <div class="tab-content__top">
+                                    <div class="tab-content__row">
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/1.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Аппараты высокого давления</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/2.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Пылесосы</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/3.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Системы полива и орошения</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/4.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Ручные подметальные машины</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/5.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Насосы</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/6.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Электровеники</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/7.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Пароочистители</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/8.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Гладильные системы</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/9.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Паропылесосы</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/10.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Стеклоочиститель</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/11.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Полотер</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/12.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Поломоечная машина</h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tab-content__bot">
+                                    <div class="tab-content__row">
+                                        <a href="#" class="tab-content__item tab-item tab-item_small">
+                                            <div class="tab-item__image tab-item__image_small">
+                                                <img src="img/catalog/13.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Принадлежности</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item tab-item_small">
+                                            <div class="tab-item__image tab-item__image_small">
+                                                <img src="img/catalog/14.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>для чистки и ухода</h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-content__top">
+                                    <div class="tab-content__row">
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/4.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Ручные подметальные машины</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/5.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Насосы</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/6.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Электровеники</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/7.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Пароочистители</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/8.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Гладильные системы</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/9.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Паропылесосы</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/10.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Стеклоочиститель</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/11.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Полотер</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item">
+                                            <div class="tab-item__image">
+                                                <img src="img/catalog/12.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Поломоечная машина</h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="tab-content__bot">
+                                    <div class="tab-content__row">
+                                        <a href="#" class="tab-content__item tab-item tab-item_small">
+                                            <div class="tab-item__image tab-item__image_small">
+                                                <img src="img/catalog/13.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>Принадлежности</h2>
+                                            </div>
+                                        </a>
+                                        <a href="#" class="tab-content__item tab-item tab-item_small">
+                                            <div class="tab-item__image tab-item__image_small">
+                                                <img src="img/catalog/14.png" alt="">
+                                            </div>
+                                            <div class="tab-item__title">
+                                                <h2>для чистки и ухода</h2>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog__column">
+                    <form class="catalog__search-form search-form">
+                        <input type="text" class="search-form__input">
+                        <button type="submit" class="search-form__button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="catalog__column">
+                    <div class="catalog__personal-row personal-row">
+                        <a href="#" class="catalog__personal-item personal-item">
+                            <div class="personal-item__icon">
+                                <i class="fa fa-heart-o fa-lg"></i>
+                            </div>
+                            <div class="personal-item__num">0</div>
+                        </a>
+                        <a href="#" class="catalog__personal-item personal-item">
+                            <div class="personal-item__icon">
+                                <i class="fa fa-files-o fa-lg"></i>
+                            </div>
+                            <div class="personal-item__num">0</div>
+                        </a>
+                        <a href="#" class="catalog__personal-item personal-item">
+                            <div class="personal-item__icon">
+                                <i class="fa fa-shopping-basket fa-lg"></i>
+                            </div>
+                            <div class="personal-item__num active">2</div>
+                        </a>
+                        <a href="#" class="catalog__personal-item personal-item">
+                            <div class="personal-item__sum">На сумму - <span>23 140 </span>руб.</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <section class="breadcrumps anim-item">
+    <div class="container">
+        <div class="breadcrumps__body">
+            <div class="breadcrumps__row">
+                <a href="#" class="breadcrumps__link">Главная</a>
+                <a href="#" class="breadcrumps__link">Home & Garden</a>
+                <a href="#" class="breadcrumps__link">Бытовые пылесосы</a>
+                <a href="#" class="breadcrumps__link active">Пылесос с аквафильтром Karcher DS 6.000 Mediclean</a>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="banner ibg">
+    <img src="img/content/banner.png" alt="">
+    <div class="container">
+        <div class="banner__body">
+            <h2 class="banner__title">Пылесос с водяным фильтром</h1>
+            <div class="banner__text">Высочайшая сила всасывания и многоступенчатая система фильтрации, реализованная в пылесосе DS 6000 Mediclean, делают воздух в помещении до 99,99% чище. Аллергики могут вздохнуть спокойно! Пылесос с аквафильтром DS 6.000 Mediclean рекомендован Российской Ассоциацией Аллергологов и Клинических иммунологов (РААКИ).</div>
+        </div>
+    </div>
+</section>
+        <section class="content">
+    <div class="container">
+        <div class="content__body">
+            <div class="content__row">
+                <div class="content__column content__column_img">
+                    <ul class="content__slider slider-small">
+                        <li class="slider-small__slide">
+                            <img class="slider-small__image" src="img/slides/1.png" alt="">
+                        </li>
+                        <li class="slider-small__slide">
+                            <img class="slider-small__image" src="img/slides/2.png" alt="">
+                        </li>
+                        <li class="slider-small__slide">
+                            <img class="slider-small__image" src="img/slides/3.png" alt="">
+                        </li>
+                        <li class="slider-small__slide">
+                            <img class="slider-small__image" src="img/slides/4.png" alt="">
+                        </li>
+                    </ul>
+                    <div class="slider-big">
+                        <div class="slider-big__slide">
+                            <div class="slider-big__zomm-icon">
+                                <i class="fa fa-search-plus fa-lg"></i>
+                            </div>
+                            <img class="slider-big__image" src="img/slides/1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="content__column content__column_data">
+                    <div class="item-data">
+                        <div class="item-data__title item-title">
+                            <div class="item-title__column">
+                                <div class="item-title__exist">
+                                    <img src="img/content/item-data/exist-yes.png" alt="">
+                                    <span>Под заказ</span>
+                                </div>
+                                <div class="item-title__title">Karcher DS 6.000 Mediclean</div>
+                            </div>
+                            <div class="item-title__column">
+                                <div class="item-title__labels">
+                                    <img src="img/content/item-data/new.png" alt="">
+                                    <img src="img/content/item-data/hit.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-data__rating item-rating">
+                            <div class="item-rating__column">
+                                <div class ="raiting">
+                                    <div class="raiting__star"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i></div>
+                                    <div class="raiting__star"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i></div>
+                                    <div class="raiting__star"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i></div>
+                                    <div class="raiting__star"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i></div>
+                                    <div class="raiting__star"><i class="fa fa-star-o fa-lg" aria-hidden="true"></i></div>
+                                    <span class="raiting__num"></span>
+                                </div>
+                            </div>
+                            <div class="item-rating__column">
+                                <div class="item-rating__reviews">
+                                    <i class="fa fa-commenting-o fa-lg"></i>
+                                    <a href="#">Оставить отзыв</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-data__price item-price">
+                            <div class="item-price__column">
+                                <div class="item-price__price-block">
+                                    <span class="item-price__price">21 190 <span>руб.</span> </span>
+                                    <a href="#" class="item-price__basket">
+                                        <i class="fa fa-shopping-basket fa-lg"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-price__column item-price__column_flex">
+                                <div class="item-price__fav">
+                                    <i class="fa fa-heart-o fa-lg"></i>
+                                    <a href="#">В избранное</a>
+                                </div>
+                                <div class="item-price__compare">
+                                    <i class="fa fa-copy fa-lg"></i>
+                                    <a href="#">сравнить</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-data__info item-info">
+                            <p class="item-info__ship">
+                                Подробные <a href="#">условия доставки</a> и <a href="#">оплаты</a>
+                            </p>
+                            <p class="item-info__garant">
+                                <a href="#">Гарантия на бытовую технику 5 лет!</a>
+                            </p>
+                            <p class="item-info__desc">
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                                Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.Качественная чистка полов, ковровых покрытий и мягкой мебели. Благодаря  дополнительному фильтру  HEPA 13 очищается воздух в помещении от мелких частиц пыли, спор и пыльцы, вызывающих аллергию, а система Perma Power увлажняет его. Легкий, удобный в эксплуатации. Рекомендован для использования в медицинских учреждениях.
+                            </p>
+                            <p class="item-info__art">
+                                <b>Артикул: </b>1.195-202.0
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/17367f6a2b.js"></script>
+</body>
+</html>
